@@ -7,6 +7,7 @@ public class RemoverTest {
 
     @Test
     public void testRemove() {
+        System.out.println("=====KATA01_RemoverTest executing=====");
         String input = "Hola!";
         String expected = "Hola";
         String result = Remover.remove(input);
